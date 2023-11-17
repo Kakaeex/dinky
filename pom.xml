@@ -96,7 +96,7 @@
         <maven.resource.version>3.2.0</maven.resource.version>
         <mockito.version>3.12.4</mockito.version>
         <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
-        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
+        <mysql-connector-j.version>8.0.32</mysql-connector-j.version>
         <ojdbc8.version>12.2.0.1</ojdbc8.version>
         <org.commonmark>0.21.0</org.commonmark>
         <oshi.version>6.4.2</oshi.version>
@@ -338,9 +338,9 @@
                 <version>${commons-lang3.version}</version>
             </dependency>
             <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>${mysql-connector-java.version}</version>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>${mysql-connector-j.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.h2database</groupId>
